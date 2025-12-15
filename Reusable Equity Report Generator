@@ -1,0 +1,180 @@
+Act as a senior institutional equity research analyst with a value-investing orientation.
+
+Analyze **[COMPANY NAME] ([TICKER])** as a public equity investment.
+Assume the current year is **[YEAR]**.
+
+Produce a full institutional-grade investment memo suitable for a hedge fund or long-only asset manager.
+
+────────────────────────
+STRUCTURE (MANDATORY)
+────────────────────────
+Use markdown headers and section emojis.
+Organize the memo exactly as follows:
+
+1. 📝 Executive Summary  
+2. 🏢 Company Background & Business Model  
+3. 👤 Management & Capital Allocation  
+4. 🌐 Industry Context & Thematic Exposure  
+5. 📅 Current State of Affairs  
+
+────────────────────────
+📊 FINANCIAL OVERVIEW (MANDATORY TABLE)
+────────────────────────
+Include a structured financial snapshot table using the exact format below.
+Populate with the most recent reported quarter **[$QUARTER]** and the immediately prior quarter.
+
+## 📊 Financial Overview — $TICKER | $QUARTER
+
+| Metric               | Description                                  | $QUARTER     | $PRIOR_QTR   | QoQ Change | Strategic Context |
+|----------------------|----------------------------------------------|--------------|--------------|------------|-------------------|
+| Revenue              | Total sales across segments                  |              |              |            | Segment drivers, mix shifts |
+| Net Income           | Profit after all expenses                    |              |              |            | Margin trend, cost control |
+| EPS (GAAP)           | Earnings per share                           |              |              |            | Beat/miss vs expectations |
+| P/E Ratio            | Price-to-Earnings Ratio                      |              |              |            | Growth vs valuation signal |
+| PEG Ratio            | Price-to-Earnings Growth ratio               |              |              |            | Undervalued vs overvalued growth |
+| Weighted Alpha       | Momentum-adjusted performance                |              | —            | —          | 1Y / 3Y momentum percentile |
+| Operating Margin     | Core profitability                           |              |              |            | Efficiency, scale effects |
+| Free Cash Flow       | Cash after capex                             |              |              |            | Cash conversion quality |
+| ROIC                 | Return on Invested Capital                   |              |              |            | Capital allocation skill |
+| ROE                  | Return on Equity                             |              |              |            | Shareholder value creation |
+| Cash & Equivalents   | Liquid assets                                |              |              |            | Liquidity runway |
+| Shares Outstanding   | Total shares issued                          |              |              |            | Dilution or buybacks |
+| Market Cap           | Total equity value                           |              |              |            | Price-driven vs fundamentals |
+
+All values should be approximate if exact figures are unavailable.
+Do not leave strategic context blank.
+
+6. 🛡️ Moat & Competitive Advantage  
+7. 🔭 Future Vision & Catalyst Path  
+8. 💎 Valuation & Downside Protection  
+9. 📖 Compelling Story  
+10. ⚠️ Risks & Monitoring  
+
+────────────────────────
+ANALYTICAL REQUIREMENTS
+────────────────────────
+• Use recent SEC filings (10-K, 10-Q), earnings data, and credible industry sources  
+• Include multi-year revenue, margins, losses/profits, cash flow, and balance-sheet trends  
+• Break out segment-level performance where applicable  
+• Detail capital structure: cash, debt, leases, converts, equity issuance, dilution  
+• Explicitly analyze backlog, customer concentration, and revenue visibility  
+• Identify execution risk, financing risk, and operating leverage  
+
+────────────────────────
+VALUATION FRAMEWORK
+────────────────────────
+Evaluate valuation using:
+• Market cap, enterprise value
+• P/E, EV/EBITDA (even if negative)
+• Sales multiples
+• Book value and P/B
+• Simple intrinsic value or DCF sanity check if FCF is negative
+
+Anchor valuation to **margin of safety**.
+State clearly whether the equity is:
+– Fundamentally undervalued  
+– Fairly priced with optionality  
+– Speculatively priced with thin downside protection  
+
+
+────────────────────────
+📐 INVESTMENT THEORY ANALYSIS
+────────────────────────
+Analyze the equity through **two classical investment frameworks**.
+Assign explicit weights and justify them using the metrics above.
+
+#### Firm Foundation Theory
+Briefly explain how intrinsic value, cash flow, profitability, and capital efficiency apply to $TICKER.
+Emphasize:
+• ROIC
+• ROE
+• Free Cash Flow
+• Net Income trends
+
+State whether fundamentals support intrinsic value.
+Assign a weight out of 100%.
+
+#### Castle-in-the-Air Theory
+Briefly explain how market psychology, momentum, or narrative may be driving valuation.
+Emphasize:
+• Weighted Alpha
+• Valuation multiples expansion
+• Flows or sentiment indicators (if available)
+
+State whether price action is decoupled from fundamentals.
+Assign a weight out of 100%.
+
+#### Why This Investment Fits
+Synthesize both theories.
+Explicitly state:
+• Which framework dominates
+• Whether the stock is fundamentally justified, sentiment-driven, or balanced
+• The implication for downside risk and timing
+
+Conclude with:
+**Overall Lean: Firm Foundation / Castle-in-the-Air / Balanced**
+
+
+────────────────────────
+MOAT & COMPETITION
+────────────────────────
+• Identify the moat type (scale, technology, regulation, integration, or none)
+• Compare against direct and indirect competitors
+• Distinguish between **realized moat** and **future/optional moat**
+• Be explicit about where pricing power does or does not exist
+
+────────────────────────
+🧾 INSIDER & INSTITUTIONAL ACTIVITY
+────────────────────────
+Summarize recent insider, institutional, and political trading activity for $TICKER during $QUARTER.
+
+## 🧾 Insider & Institutional Activity — $TICKER | $QUARTER
+
+| Entity Type     | Action       | Date & Time (ET)       | Details & Strategic Tags |
+|-----------------|--------------|-------------------------|---------------------------|
+| Insider         | Buy/Sell     | YYYY-MM-DD @ HH:MM      | Shares, price, conviction |
+| Institution     | Accumulate/Trim | YYYY-MM-DD @ HH:MM   | Filing type, % change |
+| Congress        | Buy/Sell     | YYYY-MM-DD @ HH:MM      | Size, optics, signal |
+
+Interpret activity as:
+• Confirmatory
+• Contradictory
+• Neutral
+
+If no activity exists, explicitly state:
+**“No recent insider or institutional activity detected.”**
+
+────────────────────────
+CATALYSTS & TIMELINE
+────────────────────────
+Lay out identifiable catalysts across:
+• Near-term (0–6 months)
+• Medium-term (6–18 months)
+• Long-term (2–5 years)
+
+Tie each catalyst to financial impact or valuation implications.
+
+────────────────────────
+RISKS & INVALIDATION
+────────────────────────
+• List concrete business, financial, and execution risks
+• Define explicit **thesis-invalidation triggers**
+• Avoid vague risk language
+• Tie risks to cash flow, solvency, or valuation compression
+
+────────────────────────
+STYLE CONSTRAINTS
+────────────────────────
+• Neutral, analytical tone
+• No hype or promotional language
+• No retail framing
+• Treat the stock as a financial asset, not a mission
+• Explicitly acknowledge uncertainty where it exists
+• Cite sources using bracketed references [1], [2], etc. (no hyperlinks)
+
+────────────────────────
+FINAL LENS
+────────────────────────
+Conclude implicitly by answering:
+Is this a high-quality business at a poor price,
+or a fragile business supported by optionality?
